@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0;">
+
+    <div class="header">
+        <div class="rps-text"> <!-- rock-paper-scissors text -->
+            <div class="rock-text">ROCK</div>
+            <div class="paper-text">PAPER</div>
+            <div class="scissors-text">SCISSORS</div>
+        </div>
+        <div class="scores"> <!--score div-->
+            <div class="computer-score">
+                <div class="comp-score-text">COMPUTER SCORE</div>
+                <div id="comp" class="comp-score-num">0</div> <!--score computer-->
+            </div>
+            <div class="your-score">
+                <div class="your-score-text">YOUR SCORE</div>
+                <div id="your" class="your-score-num">0</div> <!--score player-->
+            </div>
+        </div>
+    </div>
+    <div class="dynamic" id="dynamic">
+        <div class="ka-iba-ibo">
+            <img class="line1" src="files/L1.svg" alt="">
+            <img class="line2" src="files/L2.svg" alt="">
+            <img class="line3" src="files/L3.svg" alt="">
+            <div id="stone" class="blue" onclick="handleRock()">
+                <img src="files/blue.svg" alt="" >
+                <img class="stone" src="files/stone.svg" alt=""> 
+            </div>
+            
+            <div id="scissor" class="purple" onclick="handleScissor()">
+                <img src="files/purple.svg" alt="">
+                <img class="scissors" src="files/scissors.svg" alt="">
+            </div>
+           
+            <div id="paper" class="yellow" onclick="handlePaper()">
+                <img src="files/yellow.svg" alt="">
+                <img class="paper" src="files/paper.svg" alt="">
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="testBtn" id="testBtn">
+            <button class="rules-button1" id="ruleshere" style=" margin-top: 499px;
+            margin-left: 1360px;" onclick="displayRules()">RULES</button>
+            <!-- <button class="nextBtn">NEXT</button> -->
+        </div>
+        <div class="modal" id="hidethis">
+            <div class="x-div" id="clicktohide">
+                <img class="theX" src="files/X.svg" alt="">
+            </div>  
+            <div class="rules-header">
+                Game Rules
+            </div>
+            <div class="rules-footer">
+                <ul>
+                    <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                    <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                    <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                    <li>If both players lay down the same hand, each player lays down another hand</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
