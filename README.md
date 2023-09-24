@@ -21,7 +21,7 @@
 5. There is a rules section at the bottom right, so as soon as you click on it, a pop up will open and you need to write the basic rule of the game, and there is a close button to close the pop up.
 6. You need to store the scores in the local storage, and make sure that the scores are not lost on reloading the page.
 
-NOTE:     
+### NOTE:     
   For you turn in the game, you will have to choose the option manually by clicking on the one of the option, but for your computer it will be decided by the logic you write which will randomly decided.
 
 ### Screenshot
