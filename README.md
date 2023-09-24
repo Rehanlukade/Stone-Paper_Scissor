@@ -24,21 +24,21 @@
 ### NOTE:     
   For you turn in the game, you will have to choose the option manually by clicking on the one of the option, but for your computer it will be decided by the logic you write which will randomly decided.
 
-### Screenshot
+# Screenshot
 
-# When Game Starts
+## When Game Starts
 ![Screenshot (48)](https://github.com/Rehanlukade/Stone-Paper_Scissor/assets/47839836/a5ce2745-e756-478e-bba0-903d6df2c1e1)
 
-# Displaying Rules to Users
+## Displaying Rules to Users
 ![Screenshot (49)](https://github.com/Rehanlukade/Stone-Paper_Scissor/assets/47839836/e4618052-5343-4a59-bfb8-18729db68a59)
 
-# When User Win or Loss
+## When User Win or Loss
 ![Screenshot (50)](https://github.com/Rehanlukade/Stone-Paper_Scissor/assets/47839836/285010c4-870c-4426-91c4-b1fb5ad51d67)
 
-# Hurray Page of Winning
+## Hurray Page of Winning
 ![Screenshot (51)](https://github.com/Rehanlukade/Stone-Paper_Scissor/assets/47839836/9eb86d1f-49b9-4d25-ab52-18bc014a1811)
 
-### Links
+## Links
 
 - Solution URL: https://github.com/Rehanlukade/Stone-Paper_Scissor
 - Live Site URL: [Live Demo](https://stone-paper-scissor-rsl.netlify.app/)
